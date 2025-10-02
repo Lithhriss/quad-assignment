@@ -1,0 +1,35 @@
+.difficulty-selector {
+  width: 400px;	
+  text-align: center;
+}
+
+.difficulty-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.toggle-button {
+  word-wrap: break-word;
+  border: 1px solid;
+  border-radius: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 2px 4px;
+  text-align: center;
+  transition: background-color .25s,color .25s,border-color .25s;
+  white-space: normal;
+  width: 82px;
+}
+
+.toggle-on {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.toggle-off {
+  background: #ccc;
+}

@@ -1,0 +1,10 @@
+.pagina {
+  max-width: 1000px;
+  font-family: Helvetica, Arial;
+}
+
+
+.pagina-titel {
+  font-weight: bold;
+  text-align: center;
+}

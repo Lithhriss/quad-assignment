@@ -1,0 +1,49 @@
+.question-container {
+  padding-top: 25px;
+}
+
+.question {
+  text-align: center;
+  color: black;
+}
+
+.answer {
+  display: grid;
+  grid-template-columns: minmax(220px, auto); /* minimum 220px, grows with longest answer */
+  gap: 12px;
+  justify-content: center;
+  justify-items: stretch;
+}
+
+.answer-button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 16px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.25s, color 0.25s, border-color 0.25s;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.answer-correct {
+  background-color: #28a745;
+  color: #fff;
+  border-color: #218838;
+}
+
+.answer-wrong {
+  background-color: #dc3545;
+  color: #fff;
+  border-color: #c82333;
+}
+
+.answer-neutral {
+  background-color: #f8f9fa;
+  color: #212529;
+  border-color: #ced4da;
+}

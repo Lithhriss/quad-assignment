@@ -1,0 +1,33 @@
+.fetch-button-container {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.fetch-button,
+.reset-token-button {
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s, opacity 0.25s;
+  text-align: center;
+  padding: 8px;
+}
+
+.fetch-available {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.fetch-on-cooldown {
+  background-color: #6c757d;
+  color: #fff;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.reset-token-button {
+  background-color: #ffc107;
+  color: #212529;
+}

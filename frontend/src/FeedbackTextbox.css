@@ -1,0 +1,12 @@
+.feedback-textbox {
+  margin-top: 16px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 10px 14px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.feedback-textbox:empty {
+  display: none;
+}
