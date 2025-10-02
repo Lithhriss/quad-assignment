@@ -1,3 +1,5 @@
+// @author Mart van Haaften
+
 package com.quad_assignment;
 
 import org.springframework.boot.SpringApplication;
